@@ -1,15 +1,17 @@
 {
-  "name": "",
+  "name": "FEC-Blitva-Proxy",
   "version": "",
   "description": "",
-  "author": "",
+  "author": "Amos Nash",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon server/server.js"
   },
   "dependencies": {
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
