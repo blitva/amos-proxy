@@ -7,7 +7,7 @@ app.use(morgan('dev'));
 app.use(cors());
 
 app.use(express.static(__dirname + '/../public'));
-app.use('/:productId', express.static(__dirname + '/../public'))
+app.use('/:productId', express.static(__dirname + '/../public'));
 
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);
