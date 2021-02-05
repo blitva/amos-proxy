@@ -1,0 +1,15 @@
+
+
+#topContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  padding: 8px;
+  margin: 10px;
+}
+
+#photos {
+  margin-right: 60px;
+}
